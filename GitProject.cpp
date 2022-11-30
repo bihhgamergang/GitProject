@@ -5,7 +5,7 @@ for demo !!!!
 
 #include <iostream>
 
-using  namespace std;
+using namespace std;
 
 //please add your github user to names
 //another change   
@@ -15,10 +15,10 @@ int main()
 {
 	cout << "hello class" << endl; // this is a comment
 
-
 	string s;
 
-	for ( int x = 0 ; names[ x ] != NULL ; x++ ) {
+	for (int x = 0; names[x] != NULL; x++)
+	{
 		cout << names[x] << endl;
 	}
 }
